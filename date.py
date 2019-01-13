@@ -6,4 +6,4 @@ date = datetime.date(2019,1,13)
 print(date)
 
 if today==date:
-    print("salam")
+    print("hello world")
