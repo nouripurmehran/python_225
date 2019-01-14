@@ -1,9 +1,8 @@
-import datetime
+from datetime import date
 
-today = datetime.date.today()
-print(today)
-date = datetime.date(2019,1,13)
-print(date)
+today = date.today()
+
+date = date(2019,1,14)
 
 if today==date:
     print("Hello world")
