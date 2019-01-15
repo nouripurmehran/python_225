@@ -9,7 +9,7 @@ delivery = requests.post(send_url, data=sms)
 delivery = str(delivery)
 
 if delivery == "<Response [200]>":
-    print("پیام تحویل داده شد.")
+    print("پیام ارسال شد.")
 elif delivery == "<Response [418]>":
     print("اعتبار حساب شما کافی نیست . ")
 elif delivery == "<Response [414]>":
