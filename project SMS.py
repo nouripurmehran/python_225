@@ -1,3 +1,11 @@
-if True:
+import requests
+import datetime
+import calendar
 
-    print("hello world")
+now = datetime.datetime.now()
+today_time = datetime.date.today()
+
+cy = now.year
+cm = now.month
+
+
