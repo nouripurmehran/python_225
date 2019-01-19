@@ -1,6 +1,6 @@
-w = open("num&mess", "r")
+w = open("text", "r")
 
 for line in w:
-    x = line.split(" ")
-    sms = {"receptor": x[1], "message": x[0]}
+    x = line.split(",")
+    sms = {"receptor": x[2], "message": x[1]}
     print(sms)
