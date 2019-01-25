@@ -33,3 +33,4 @@ for line in text:
     else:
         log.write(f"Do not have any remind for this date  {now}\n")
     log.close()
+text.close()
